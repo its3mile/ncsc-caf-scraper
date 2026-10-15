@@ -9,8 +9,8 @@ package-mode = false
 requires-python = ">=3.14"
 dependencies = [
     "loguru>=0.7.3",
-    "pydantic>=2.12.5",
-    "scrapling[fetchers]>=0.4.6",
+    "pydantic>=2.14.1",
+    "scrapling[fetchers]>=0.4.15",
 ]
 
 [tool.pytest.ini_options]

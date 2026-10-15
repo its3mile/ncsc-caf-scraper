@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=mcr.microsoft.com/playwright/python:v1.58.0-noble
+ARG BASE_IMAGE=mcr.microsoft.com/playwright/python:v1.63.0-resolute
 FROM $BASE_IMAGE
 
 RUN DEBIAN_FRONTEND=noninteractive \
